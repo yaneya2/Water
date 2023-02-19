@@ -25,8 +25,6 @@ public class Water {
     }
 
     public static void main(String[] args) {
-        Long date = System.currentTimeMillis();
-        System.out.println(date + "начало");
         Scanner sc;
         int start;
         int end;
@@ -54,7 +52,5 @@ public class Water {
                     waterLevel(roadSections, currentRoadSection + shiftStart);
             }
         }
-        System.out.println(System.currentTimeMillis() + "конец");
-        System.out.println(System.currentTimeMillis() - date + "разница");
     }
 }
